@@ -21,6 +21,7 @@ const getRentPrices = async () => { const url = 'https://servicios.ine.es/wstemp
         // Extreure només els valors dels atributs dins de Data 
         /*const valors = catalunya.map((element) => { return element.Data.map((item) => item.Valor); }); 
         return valors;*/
+        
         return catalunya;
     } catch (error) { 
      console.error('Error:', error);  return[]; 
